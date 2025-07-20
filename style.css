@@ -1,0 +1,172 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@font-face {
+    font-family: Regular;
+    src: url(fonts/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: medium;
+    src: url(fonts/Poppins-Medium.ttf);
+}
+.container-fluid{
+    width: 100%;
+     background-color: #333333;
+    height: 90px;
+}
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header h2{
+    font-family:medium;
+    color: white;
+    font-size: 28px;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    align-items: center;
+    height: 100%;
+}
+nav{
+    width: 100%;
+    
+}
+.header{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style-type: none;
+    color: white;
+    font-family: Regular;
+}
+.main h1{
+    font-family: Regular;
+    line-height: 35px;
+    color: #202020;
+}
+/* .main{
+    padding-top: 120px;
+    display: flex;
+    width: 50%;
+}
+.section{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+.section-1{
+    height: 400px;
+    width: 430px;
+    background-color: #CCCCCC;
+    
+    
+} */
+.main{
+    height: 400px;
+    width: 50%;
+    /* background-color: blueviolet; */
+    padding-top: 120px;
+}
+.section{
+    height: 400px;
+    width: 50%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: flex-end;
+}
+.parrent{
+    display: flex;
+}
+.box{
+    height: 400px;
+    width: 400px;
+    background-color: #CCCCCC;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.box h1{
+    font-family: medium;
+    color: #9A9A9A;
+    
+   
+}
+.main-2{
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    flex-wrap: wrap;
+    background-color: #F9F9F9;
+    height: 120px;
+    align-items: center;
+}
+.box1{
+    text-align: center;
+}
+.box1 h2{
+    font-family: sans-serif;
+    font-size: 28px;
+    color: #242828;
+    line-height: 46px;
+}
+.box1 p{
+    font-family: Regular;
+    font-size: 12px;
+    color: #242828;
+}
+.box2{
+    text-align: center;
+}
+.box2 h2{
+    font-family: sans-serif;
+    font-size: 28px;
+    color: #242828;
+    line-height: 46px;
+}
+.box2 p{
+    font-family: Regular;
+    font-size: 12px;
+    color: #242828;
+}
+.box3{
+    text-align: center;
+}
+.box3 h2{
+    font-family: sans-serif;
+    font-size: 28px;
+    color: #242828;
+    line-height: 46px;
+}
+.box3 p{
+    font-family: Regular;
+    font-size: 12px;
+    color: #242828;
+}
+.main-3{
+    display: flex;
+    justify-content: center;
+}
+.text{
+    text-align: center;
+    
+}
+.text h2{
+    font-family: sans-serif;
+    font-size: 30px;
+     color: #242828;
+}
+.text p{
+    font-family: sans-serif;
+    font-size: 13px;
+     color: #242828;
+}
